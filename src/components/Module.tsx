@@ -15,7 +15,7 @@ export function Module({moduleIndex, title, amountOfLessons}: ModuleProps) {
     return {
       lessons: store.course?.modules[moduleIndex].lessons,
       currentLessonIndex: store.currentLessonIndex,
-      currentModuleIndex: store.currentLessonIndex,
+      currentModuleIndex: store.currentModuleIndex,
       play: store.play
     }
   })
