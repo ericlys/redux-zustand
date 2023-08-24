@@ -1,7 +1,7 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { useAppSelector } from "..";
 
-const PlayerSlice = createSlice({
+export const PlayerSlice = createSlice({
   name: "player",
   initialState: {
     course: {
